@@ -1,0 +1,705 @@
+
+
+
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+
+header {
+    position: relative;
+    width: 100%;
+    height: 90vh;
+    
+    
+}
+
+.banner{
+    position: relative;
+    width: 100%;
+    height: 90vh;
+    background-image: url(../img/portada.jpg);
+    background-blend-mode: soft-light;
+    background-repeat: repeat;
+    background-position: inherit;
+    background-size: cover;
+
+}
+
+@media screen and (max-width: 768px) {
+
+    header {
+        height: 60vh;
+    }
+
+    header .banner {
+        height: 60vh;
+    }
+
+    header .banner img {
+        height: 60vh;
+    }
+
+    header .intro {
+        width: 100%;
+        left: 0;
+    }
+
+    header .intro .ptex {
+        font-weight: 700;
+        color: #fff;
+    }
+
+    header .intro .year {
+        color: #fff;
+        font-weight: 300;
+        letter-spacing: 3px;
+    }
+
+  
+    
+
+    .menu {
+        width: 100%;
+        height: 8vh;
+        top: 55vh;
+        left: 0;
+    }
+
+    .menu .main-menu ul li .main_t {
+        line-height: 9vh;
+        border: 1px solid #000;
+        
+    }
+}
+
+header .iconmenu {
+    width: 100%;
+    position: absolute;
+    top: 30px;
+    padding-left: 20px;
+}
+
+header .iconmenu input {
+    display: none;
+}
+
+.intro .ven-maceta{
+  color: white;
+
+}
+
+.intro .year {
+    color: white;
+}
+
+input {
+   
+    text-rendering: auto;
+    color: -internal-light-dark-color(black, white);
+    letter-spacing: normal;
+    word-spacing: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    display: inline-block;
+    text-align: start;
+    -webkit-appearance: textfield;
+    background-color: -internal-light-dark-color(rgb(255, 255, 255), rgb(59, 59, 59));
+    -webkit-rtl-ordering: logical;
+    cursor: text;
+    margin: 0em;
+    font: 400 13.3333px Arial;
+    padding: 1px 2px;
+    border-width: 2px;
+    border-style: inset;
+    border-color: -internal-light-dark-color(rgb(118, 118, 118), rgb(195, 195, 195));
+    border-image: initial;
+}
+
+header .iconmenu .bottom {
+    display: block;
+    width: 100%;
+    display: none;
+}
+
+header .iconmenu img {
+    width: 30px;
+}
+
+.menu {
+    width: 100%;
+    height: 10vh;
+    -webkit-box-shadow: 0px 1px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 1px 5px 0px rgba(0,0,0,0.75);
+    box-shadow: 0px 1px 5px 0px rgba(0,0,0,0.75);
+    position: absolute;
+    top: 86vh;
+    left: 0;
+}
+
+.menu .main-menu {
+    width: 90%;
+    height: 10vh;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.menu .main-menu ul {
+    width: 100%;
+    line-height: 10vh;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu .main-menu ul li {
+    width: 100%;
+    z-index: 90;
+}
+
+
+ul {
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}
+
+@media screen and (max-width: 763px) {
+
+    header .intro {
+        top: 18%;
+    }
+
+    header .intro .main {
+        font-size: 40px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+
+    header .intro .textstar {
+        font-size: 25px;
+    }
+
+    header .intro .main {
+        font-size: 20px;
+    }
+
+    header .intro .star2 {
+        font-size: 16px;
+        
+    }
+
+    header .intro .flor3 {
+        width: 20px;
+    }
+}
+   
+    
+header .intro {
+    position: absolute;
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    top: 20%;
+    left: 0;
+    transform: translateX(-50% -50%);
+    text-align: center;
+}
+
+
+
+header .intro .textstar {
+    display: inline-block;
+    color: white;
+}
+
+header .intro .main {
+    width: 100%;
+    text-transform: uppercase;
+    letter-spacing: 15px;
+    font-size: 4vw;
+    font-weight: 700;
+    color: white;
+}
+
+header .intro .flor1 {
+    width: 15px;
+    display: inline-block;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+header .intro .flor3 {
+    width: 40px;
+    display: inline-block;
+    padding-top: 5px;
+}
+
+.aboutus {
+    width: 100%;
+    height: auto;
+}
+
+@media screen and (max-width: 768px) {
+    
+    .aboutus {
+        padding-top: 30px;
+    }
+    .aboutus h2 {
+        padding-top: 60px;
+    }
+
+    .aboutus .container_services .about_text h2 {
+        padding: 0;
+    }
+
+    .aboutus .container_services .about_text p {
+        width: 90%;
+        padding-top: 20px;
+    }
+
+    .aboutus .container_services .about_img {
+        width: 40%;
+        height: 250px;
+        padding-bottom: 15%;
+    }
+
+    .aboutus .container_services .about_img img {
+        width: 100%;
+        max-width: 100%;
+        height: 100%;
+    }
+}
+
+@media screen and (max-width: 450px) {
+
+    .aboutus .container_services .about_text {
+        width: 100%;
+    }
+
+    .aboutus .container_services .about_img {
+        width: 100%;
+        margin-top: 40px;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .aboutus {
+        padding-top: 40px;
+    }
+
+    .aboutus .container_services .about_img {
+        width: 90%;
+    }
+
+    .aboutus .container_services {
+        margin-bottom: 0;
+    }
+}
+
+
+
+.aboutus .about_quien{
+
+    max-width: 100%;
+    text-align: center;
+    padding-top: 90px;
+    letter-spacing: 5px;
+    font-weight: 300;
+    padding-bottom: 2rem;
+}
+
+.aboutus .container_services {
+    width: 90%;
+    height: 100%;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 90px;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+    flex-wrap: wrap;
+}
+
+.aboutus .container_services .about_text {
+    width: 50%;
+    display: contents;
+}
+
+.aboutus .inicio-0 {
+    max-width: 100%;
+    text-align: center;
+    padding-top: 90px;
+    letter-spacing: 5px;
+    font-weight: 300;
+    padding-bottom: 2rem;
+}
+
+.aboutus .container_services .about_text p {
+    width: 85%;
+    margin-left: auto;
+    margin-right: auto;
+    letter-spacing: 3px;
+     font-family: 'Oswald', sans-serif;;
+}
+
+.aboutus .container_services .about_img {
+    width: 30%;
+    height: 298px;
+}
+
+.aboutus .container_services .about_img img {
+    max-width: 350px;
+    -webkit-box-shadow: 20px -20px 5px 0px rgba(194,194,194,1);
+    -moz-box-shadow: 20px -20px 5px 0px rgba(194,194,194,1);
+    box-shadow: 20px -20px 5px 0px rgba(194,194,194,1);
+}
+
+.aboutus .container_services {
+    width: 90%;
+    height: 100%;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 90px;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+    flex-wrap: wrap;
+}
+
+.mis_plantas {
+    width: 100%;
+    height: 100%;
+    
+    padding-bottom: 60px;
+}
+
+.mis_plantas .text_main {
+    width: 75%;
+    margin-bottom: 60px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    color: black;
+    font-size: 20px;
+}
+
+
+
+h2 {
+    display: block;
+    font-size: 1.5em;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+.mis_plantas .container_allplantas {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.mis_plantas .container_allplantas .picture {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-left: 20px;
+    margin-right: 20px;
+
+}
+
+.mis_plantas .container_allplantas .picture .conta5, .conta6, .conta7, .conta8, .conta9,
+.conta10, .conta11, .conta11, .conta12, .conta13, .conta14, .conta15, .conta16,
+.conta17, .conta18, .conta19, .conta20, .conta21, .conta22, .conta23, .conta24 {
+    width: 280px;
+    height: 280px;
+    margin-bottom: 3rem;
+    
+}
+
+
+.mis_plantas .container_allplantas .picture .conta8 img {
+    width: 100%;
+    max-width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 5px;
+    
+}
+
+.mis_plantas .container_allplantas .picture .conta5 img {
+    width: 100%;
+    max-width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 5px;
+}
+.mis_plantas .container_allplantas .picture .conta6 img {
+    width: 100%;
+    max-width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+.mis_plantas .container_allplantas .picture .conta7 img {
+    width: 100%;
+    max-width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+.mis_plantas .container_allplantas .picture .conta9 img {
+    width: 100%;
+    max-width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+.mis_plantas .container_allplantas .picture .conta10 img {
+    width: 100%;
+    max-width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 5px;
+}
+.mis_plantas .container_allplantas .picture .conta11 img {
+    width: 100%;
+    max-width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 5px;
+}
+.mis_plantas .container_allplantas .picture .conta12 img {
+    width: 100%;
+    max-width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 5px;
+}
+.mis_plantas .container_allplantas .picture .conta13 img {
+    width: 100%;
+    max-width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+.mis_plantas .container_allplantas .picture .conta14 img {
+    width: 100%;
+    max-width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+.mis_plantas .container_allplantas .picture .conta15 img {
+    width: 100%;
+    max-width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 5px;
+}
+.mis_plantas .container_allplantas .picture .conta16 img {
+    width: 100%;
+    max-width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+.mis_plantas .container_allplantas .picture .conta17 img {
+    width: 100%;
+    max-width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+.mis_plantas .container_allplantas .picture .conta18 img {
+    width: 100%;
+    max-width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+.mis_plantas .container_allplantas .picture .conta19 img {
+    width: 100%;
+    max-width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+.mis_plantas .container_allplantas .picture .conta20 img {
+    width: 100%;
+    max-width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+.mis_plantas .container_allplantas .picture .conta21 img {
+    width: 100%;
+    max-width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+.mis_plantas .container_allplantas .picture .conta22 img {
+    width: 100%;
+    max-width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+.mis_plantas .container_allplantas .picture .conta23 img {
+    width: 100%;
+    max-width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+.mis_plantas .container_allplantas .picture .conta24 img {
+    width: 100%;
+    max-width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+
+
+
+
+.mis_plantas img {
+    width: 30%;
+    margin-bottom: 0.5rem;
+}
+
+
+
+
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+div {
+    display: block;
+}
+
+
+
+h3 {
+    display: block;
+    font-size: 1.17em;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+
+.footer .firma {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    border-top: 1px solid #ccc;
+    text-align: center;
+}
+
+
+.contactos .container_contacto {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+   
+}
+
+.contactos .container_contacto .container_contact {
+    width: 100%;
+    text-align: center;
+    padding-top: 60px;
+}
+
+.container_Map{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    padding-bottom: 60px;
+}
+
+
+.container_ubicacion{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+
+.social{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.social img {
+    width: 40px;
+    height: 40px;
+    margin-bottom: 3rem;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+.btn{
+    display: flex;
+    align-items: center;
+    font-size: 25px;
+    justify-content: center;
+}
+.Sociales{
+    margin-top: 0px;
+}
+
